@@ -2,7 +2,7 @@ let tests = []; // Ensure this variable is declared at the top scope
 
 async function fetchTestData() {
   try {
-    const response = await fetch('https://cors-anywhere.herokuapp.com/https://drive.google.com/uc?export=download&id=1u05D1YCJw1zVuUfWuHk_oC7yS7nlZaX5');
+    const response = await fetch('https://admiral-rdx.github.io/driver-tests-SK/quizRemasterData.json');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
